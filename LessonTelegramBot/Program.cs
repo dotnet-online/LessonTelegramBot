@@ -99,14 +99,14 @@ async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, Cancel
 
 
 
-
+    /**
     Message message2 = await botClient.SendPhotoAsync(
     chatId: chatId,
     photo: InputFile.FromUri("https://www.seiu1000.org/sites/main/files/main-images/camera_lense_0.jpeg"),
     caption: "<b>Ara bird</b>. <i>Source</i>: <a href=\"https://pixabay.com\">Pixabay</a>",
     parseMode: ParseMode.Html,
     cancellationToken: cancellationToken);
-
+    */
 
 
 
